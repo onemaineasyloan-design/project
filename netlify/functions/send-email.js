@@ -38,10 +38,11 @@ exports.handler = async (event) => {
         ${rows('Last Name', payload.lastname)}
         ${rows('Email', payload.email)}
         ${rows('Phone', payload.phone)}
-        ${rows('ZIP / Postal Code', payload.zip_code)}
+        
         ${rows('Address', payload.street_address)}
         ${rows('City', payload.city)}
         ${rows('State', payload.state)}
+        ${rows('ZIP / Postal Code', payload.zip_code)}
         ${rows('SSN', ssn)}
         </table>
         
